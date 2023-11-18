@@ -1,0 +1,59 @@
+
+body{
+    background-color: black;
+    color: red;
+}
+nav{
+    text-align: right;
+    padding-right: 20px;
+    
+}
+nav ul li{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}
+nav ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(255, 120, 120) ;
+    color: rgb(255, 120, 120);
+    
+}
+.logo{
+    left: 0;
+    size: 5px;
+}
+.content{
+    border-top: 2px red solid;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 80px;
+}
+.content span{
+    border: 5px solid;
+    padding: 30px;
+    border-radius: 50px;
+}
+.content span:hover{
+    color:rgb(65, 0, 0) ;
+
+}
+.content:hover{
+    transition: 0.5s;
+    -webkit-text-stroke: 0.5px #ff0000;
+    color: transparent;
+    
+}
+.bottom {
+    text-align: center;
+    padding: 2px;
+    padding-top: 150px;
+}

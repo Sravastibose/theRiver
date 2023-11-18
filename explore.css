@@ -1,0 +1,8 @@
+body{
+    background: black;
+    color: red;
+}
+.header span{
+    align-items: center;
+    text-align: center;
+}
